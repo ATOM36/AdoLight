@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdoLight.Classes;
-public class LightTable
+namespace AdoLight.Data;
+public class LightTable<T> where T : LightEntity
 {
 }
